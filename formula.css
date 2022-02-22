@@ -1,0 +1,24 @@
+html {
+  font-size: calc(1em + 3vmax);
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+}
+
+figure {
+  align-items: center;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  margin: auto;
+  min-height: 100vh;
+}
+
+@media (orientation: landscape) {
+  figure {
+    transform: rotate(-90deg);
+  }
+}
